@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Latihan 4.6 Nomor 1</title>
+</head>
+<html>
+<head>
+    <title>Latihan 4.6 Nomor 1</title>
+</head>
+<body>
+    <form method="POST" name="Penilaian">
+    <p>Masukkan Nilai<input type="text" name="Nilai"></p>
+    <p>Hasil <input type="text" name="Hasil"></p>
+    <input type="button" name="klik" value="Cek Nilai" onclick="cek()">
+    </form>
+    <script>  
+     function cek()
+        // Menentukan lulus atau tidaknya nilai tersebut
+        {
+            var var1= document.Penilaian. Nilai. value
+            
+            if (var1 <=100 && var1 >=81) 
+                document.Penilaian. Hasil. value = "A"
+            else if (var1 <=80 && var1 >=71) 
+                document.Penilaian. Hasil. value = "AB"
+            else if (var1 <=70 && var1 >=66) 
+                document.Penilaian. Hasil. value = "B"
+            else if (var1 <=65 && var1>=61) 
+                document.Penilaian. Hasil. value = "BC"
+            else if (var1 <=60 && var1>=56) 
+                document.Penilaian. Hasil. value = "C"
+            else if (var1 <=55 && var1>=41) 
+                document.Penilaian. Hasil. value = "D"
+            else if (var1 <=40 && var1>=0) 
+                document.Penilaian. Hasil. value = "E"
+            }
+</script>
+</body>
+</html>
